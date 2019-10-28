@@ -11,6 +11,18 @@
  Basis: PubSubClient
 */
 
+/*
+ * useful resources:
+ * - Makerguides.com: How to use HC-SR501 PIR Motion Sensor with Arduino
+ *   https://www.makerguides.com/hc-sr501-arduino-tutorial/
+ *   
+ * - Andreas Spiess at his best: #97 PIR Sensors: Test and comparison. Is the bigger better?
+ *   https://www.youtube.com/watch?v=0zgY5x9Zq3M
+ *   
+ * - HENRY'S BENCH: Arduino HC-SR501 Motion Sensor Tutorial
+ *   http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/
+ */
+
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 #include "credentials.h"
